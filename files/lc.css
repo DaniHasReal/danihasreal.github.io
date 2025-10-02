@@ -8,7 +8,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #222;
-  background: #ffc0cb; /* pastel pink page background */
+  background: #c3b1e1; /* pastel pink page background */
 }
 
 /* ===== Header ===== */
@@ -44,12 +44,12 @@ h1 {
   font-weight: 700;
   line-height: 1;
   color: #fff;
-  background: #ff69b4;          /* hot pink */
+  background: #cb00f5;          /* hot pink */
   transition: background .2s ease, transform .15s ease;
 }
 
 .content a:hover {
-  background: #ff1493;          /* deeper pink */
+  background: #9500b7;          /* deeper pink */
   transform: translateY(-1px);
 }
 
@@ -85,6 +85,7 @@ h1 {
 }
 
 .back-link:hover {
-  background-color: #ff1493; /* deeper pink */
+  background-color: #9500b7; /* deeper pink */
   transform: scale(1.05);
 }
+
