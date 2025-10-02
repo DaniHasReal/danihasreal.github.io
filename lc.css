@@ -1,0 +1,90 @@
+/* ===== Base ===== */
+* { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background: #ffc0cb; /* pastel pink page background */
+}
+
+/* ===== Header ===== */
+h1 {
+  margin: 0;
+  padding: 16px;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #fff;
+  background: #1e90ff;          /* blue banner */
+  border-bottom: 4px solid #1565c0;
+}
+
+/* ===== Content Card ===== */
+.content {
+  max-width: 720px;
+  margin: 28px auto;
+  padding: 24px;
+  background: #fff;              /* white card */
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0,0,0,.15);
+}
+
+.content p { margin: 0 0 14px; }
+
+/* ===== Pink Buttons for Links in .content ===== */
+.content a {
+  display: inline-block;
+  padding: 10px 18px;
+  margin: 8px 8px 0 0;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  background: #ff69b4;          /* hot pink */
+  transition: background .2s ease, transform .15s ease;
+}
+
+.content a:hover {
+  background: #ff1493;          /* deeper pink */
+  transform: translateY(-1px);
+}
+
+/* ===== Image ===== */
+.nyarchb {
+  display: block;
+  width: 60%;
+  max-width: 520px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px rgba(0,0,0,.25);
+}
+
+/* ===== Small Screens ===== */
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem; padding: 12px; }
+  .content { margin: 16px 12px; padding: 18px; }
+  .nyarchb { width: 100%; max-width: none; }
+  .content a { width: 100%; text-align: center; padding: 12px 16px; }
+}
+
+.back-link {
+  display: inline-block;
+  background-color: #ff69b4; /* hot pink */
+  color: #fff;
+  padding: 10px 18px;
+  margin-top: 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.back-link:hover {
+  background-color: #ff1493; /* deeper pink */
+  transform: scale(1.05);
+}
